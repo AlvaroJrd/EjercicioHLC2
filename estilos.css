@@ -2,6 +2,7 @@ h1{
     text-align: center;
 }
 
+
 button{
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -11,6 +12,10 @@ button{
 
     padding: 1%;
     margin-top: 2%;
+}
+
+NavegacionVscConGit {
+    display: inline;  
 }
 
 body{
