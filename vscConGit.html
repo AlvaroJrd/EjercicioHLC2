@@ -75,11 +75,73 @@
             <img src="Imagenes/ComprobandoLaInstalacion.png">
         </article>
         
-       
     </section>
+    <section>
+        <article>
+            <h2>Usar Git en VisuaL Studio Code para repositorios en  gitHub</h2>
+            <p>Para trabajar con nuestros repositorios de gitHub en VSC lo primero que tenemos que hacer el clonarlo en local</p>
+            <p>Para clonar un repositorio la mejor opcion es usar la "tableta de comandos" instalada en vsc y utilizar el comando Git: Clone</p>
+            <img src="Imagenes/ComandPalette.png">
+            <p>Toca escribir la url del repositorio para ello nos iremos a nuestro proyecto de gitHub y la copiaremos</p>
+            <img src="Imagenes/ClonarRepositoriodeGitHub.png">
+            <p>Escribimos esta url en la "paleta de comandos" y automaticamente el programa te preguntara en que carpeta local quieres guardar los datos para trabajar con ellos</p>
+            <p>Seleccionamos la carpeta a nuestro gusto,y le damos a open en vsc,una vez hecho esto tenemos nuestro repositorio cargado de github en vsc </p>
+            <p> Ahora vamos a explicar unos comandos basicos para utilizar correctamente la terminal de vsc con git</p>
+        </article>
 
+        <article>
+            <h2>Comandos terminal vsc con git</h2>
+            <article>
+                <h3>Git init</h3>
+                 <p>git init creará un nuevo repositorio local GIT. El siguiente comando de Git creará un repositorio en el directorio actual</p>
+            </article>
+            <article>
+                <h3>git clone </h3>
+            <p> se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, la estructura es : "git clone nombredeusuario@host:/path/to/repository" </p>
+            </article>            
+            <article>
+                <h3>git add </h3>
+                <p> se usa para agregar archivos al área de preparación.</p>
+                <p>Si se usa para agregar un solo archivo modificado,se escribira el nombre del archivo detrás ej: "git add prueba.txt"</p>
+                <p>si se usa para agregar todos los archivos modificados se escribira "git add ." </p>
+            </article>
+            <article>
+                <h3>git commit </h3>
+                    <p>git commit creará una instantánea de los cambios y la guardará en el directorio git.</p>
+                    <p>es muy aconsejable añadir detras del comando "-m + "texto" " para ponerle nombre al commit y asi localizarlo mas facilmente en caso de necesitar volver</p>
+            </article>
+            <article>
+                <h3>git status </h3>
+                <p>git status muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados.</p>
+                
+            </article>
+            <article>
+                <h3>git push  origin "master" </h3>
+                <p> se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto</p>
+                <p>Reemplaza "master" con la rama en la que quieres enviar los cambios cuando no quieras enviarlos a la rama maestra.</p>
+            </article>
+            <article>
+                <h3>git branch</h3>
+                <p> se usa para listar, crear o borrar ramas.</p>
+                <p>Para borrar una rama  git branch -d "branch-name"</p>
+            </article>
 
+            <article>
+                <h3>git pull y  git merge</h3>
+                <p>git pull fusiona todos los cambios que se han hecho en el repositorio local con el directorio de trabajo local.</p>
+                <p>git merge se usa para fusionar una rama con otra rama activa</p>
+            </article>
+            
+            <aside>
+                <h2>Aqui te dejo un enlace a todos los comandos de git</h2>
+                <a href="https://gist.github.com/dasdo/9ff71c5c0efa037441b6">Comandos de git</a>
+            </aside>
+        </article>
 
+    </section>
+    <footer>
+        <img src="Imagenes/Imagenfooter.jpg">
+    </footer>
     </body>
     
 
