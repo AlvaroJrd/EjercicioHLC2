@@ -2,6 +2,7 @@ h1{
     text-align: center;
 }
 
+
 button{
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -13,7 +14,28 @@ button{
     margin-top: 2%;
 }
 
+NavegacionVscConGit {
+    display: inline;  
+}
+
 body{
     background-image: linear-gradient(45deg, #c197f0 0%, #e4efe9 100%);
     background-attachment: fixed;
+}
+
+.carousel-inner img{
+    width: 100%;
+    margin: auto;
+
+}
+
+.carousel-inner iframe
+{
+    width: 560px;
+    margin-left: 33%;
+}
+
+.carousel-inner{
+    height: auto;
+    width: auto;
 }
