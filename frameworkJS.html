@@ -1,1 +1,88 @@
-RAMA frameworkJS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frameworks JS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/jpg" href="https://tkssharma.com/static/1bbde74a918ac99b9e7319e041cb62b5/1e586/js.png" />
+    <script src="frameworkJavaScript.js"></script>
+</head>
+<body onload="startTime()">
+    <header>
+        <h1 class="titulo">Frameworks JS</h1>
+        <ul class="menuLista">
+            <li class="liMenu"><a href="index.html" class="referencia">Inicio</a></li>
+            <li class="liMenu"><a href="instalacionVS.html" class="referencia">Instalacion VSC</a></li>
+            <li class="liMenu"><a href="vscConGit.html" class="referencia">VSC con Git</a></li>
+            <li class="liMenu"><a href="nodejsEnVSC.html" class="referencia">NodeJS con VSC</a></li>
+            <li class="liMenu"><a href="herramientasDesarrollo.html" class="referencia">Herramientas de Desarrollo</a></li>
+            <li class="liMenu"><a href="frameworkJS.html" class="referencia">Frameworks JS</a></li>
+            <li class="liMenu"><a href="frameworkWebBoostrap.html" class="referencia">Boostrap</a></li>
+            <li id="Reloj">
+                <div id="clockdate">
+                    <div class="clockdate-wrapper">
+                        <div id="clock"></div>
+                        <div id="date"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    
+    
+    <section>
+
+        <h2>Front End</h2>
+
+        <p>Front End es la parte de una aplicación que interactúa con los usuarios, es conocida como el lado del 
+            cliente. Básicamente es todo lo que vemos en la pantalla cuando accedemos a un sitio web o aplicación: 
+            tipos de letra, colores, adaptación para distintas pantallas(RWD), los efectos del ratón, teclado, movimientos, 
+            desplazamientos, efectos visuales… y otros elementos que permiten navegar dentro de una página web. Este conjunto 
+            crea la experiencia del usuario.</p>
+        <p>Como hemos dicho, el desarrollador front end se encarga de la experiencia del usuario, es decir,  en el momento 
+            en el que este entra a una página web, debe ser capaz de navegar por ella, por lo que el usuario verá una interface 
+            sencilla de usar, atractiva y funcional.</p>
+
+        <p>
+            <b>Algunos ejemplos son:</b>
+        </p>
+
+        <img class = "imgFrameworkJS" src="data:image/png;base64,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"/> 
+        <img class = "imgFrameworkJS" src="https://www.theblocklearning.com/wp-content/uploads/2018/09/vue2.jpg"/>
+        <img class = "imgFrameworkJS" src="https://codecondo.com/wp-content/uploads/2015/05/15-Directives-to-Extend-Your-Angular.js-Apps.jpg?d2f46c"/>
+       
+    </section>
+
+    <section>
+        <h2>Back End</h2>
+
+        <p>Como hemos dicho antes, Front end es todo con lo que el usuario se encuentra directamente 
+            en la web o aplicación, entonces cuando hablamos de “Back end” nos referimos al interior 
+            de las aplicaciones que viven en el servidor y al que a menudo se le denomina “el lado del servidor”.</p>
+
+        <p>El back end del sitio web consiste en un servidor, una aplicación y una base de datos. 
+            Se toman los datos, se procesa la información y se envía al usuario.  Los desarrolladores 
+            de Front end y Back end suelen trabajar juntos para que todo funcione correctamente.</p>
+        
+        <p>Un desarrollador Back end debe tener amplios conocimientos de los siguientes lenguajes: frameworks 
+            y los tipos de base de datos. No siendo necesario conocer todos los lenguajes pero sí entender y saber 
+            trabajar con algunos de ellos.</p>
+
+        <p>
+            <b>Algunos ejemplos son:</b>
+        </p>
+        
+        <img class = "imgFrameworkJS" src="data:image/jpeg;base64,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"/>
+        <img class = "imgFrameworkJS" src="https://cdn.auth0.com/blog/gatsby-react-webtask/logo.png"/>
+        <img class = "imgFrameworkJS" src="https://camo.githubusercontent.com/c8edb8c44c6d5779eb077924888a4f39f134339bea41d6b242a40a6755215552/687474703a2f2f696d6775722e636f6d2f56344c746f49492e706e67"/>
+    </section>
+
+    <footer>
+        <div id="pie">2021 &copy; PracticaHLC02</div>
+    </footer>
+</body>
+</html>
+
