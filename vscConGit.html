@@ -1,21 +1,156 @@
+
+
+
 <html>
     <header>
-        <h1>VSC con Git</h1>
-          <P>Aqui tienes un menu desplegable para ver los otros articulos</P>
+        <link type="text/css" rel="stylesheet" href="estilos.css">
+        <h1> VSC with Git </h1>
+          <P> Here you have a drop-down menu to see the other articles </P>
             <nav>
-                <ul id="NavegacionVscConGit">
-                    <li><a href="index.html">Vuelve al inicio</a></li>
-                    <li><a href="frameworkJS.html">FrameworkJS</a></li>
-                    <li><a href="frameworkWebBoostrap.html">frameworkWebBoostrap</a></li>
-                    <li><a href="herramientasDesarrollo.html">Heramientas de desarrollo</a></li>
-                    <li><a href="instalacionVS.html">instalacionVS</a></li>
-                    <li><a href="nodejsEnVSC.html">nodejsEnVSC</a></li>
+                <ul class="menuLista">
+                    <li class="liMenu"><a href="index.html" class="referencia">Inicio</a></li>
+                    <li class="liMenu"><a href="instalacionVS.html" class="referencia">Instalacion VSC</a></li>
+                    <li class="liMenu"><a href="vscConGit.html" class="referencia">VSC con Git</a></li>
+                    <li class="liMenu"><a href="nodejsEnVSC.html" class="referencia">NodeJS con VSC</a></li>
+                    <li class="liMenu"><a href="herramientasDesarrollo.html" class="referencia">Herramientas de Desarrollo</a></li>
+                    <li class="liMenu"><a href="frameworkJS.html" class="referencia">Frameworks JS</a></li>
+                    <li class="liMenu"><a href="frameworkWebBoostrap.html" class="referencia">Bootstrap</a></li>
                 </ul>
-            </nav>
-            <h2>En este articulo de nuestro curso,vamos a explicar como conectar visual studio code con gitHub a través de git</h2>
+            </nav>  
     </header>
+    <body>
+        
+    <section>
+        <br/>
+        <article>
+            <h2 class="h2titulo"> In this article of our course, we will explain how to connect visual studio code with gitHub through git </h2>
+            <h3 class="h3titulo">Instalacion de Git</h3>
+            <p>Para instalar git lo primero que tenemos que hacer es ir a su pagina web <a href = "https://git-scm.com/">Pagina de Git</a></p>
+            <p>Seleccionamos descarga para windows como aparece en la imagen</p>
+            <img src="Imagenes/InstalarGit.png">
+        </article>
 
+        <article>
+            <h3 class="h3titulo">Ejecutando el instalador de Git</h3>
+            <p>
+                Una vez descargado, daremos doble clic en el instalador y nos aparecerá la primera pantalla, donde daremos Next(Siguiente)
+            </p>
+            <img src="Imagenes/InstaladorGit.png">
+        </article>
 
+        <article>
+            <h3 class="h3titulo">Configurando la ruta de instalacion</h3>
+            <p>Nos aparece otra ventana donde indicaremos la ruta donde deseamos guardar los archivos de configuración de Git, nosotros por lo pronto, la dejaremos así, pero puedes elegir la ruta que desees, daremos clic en Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurarRuta.png">
 
+        </article>
+
+        <article>
+            <h3 class="h3titulo">Configurando instalación de Git</h3>
+            <p>En la siguiente pantalla nos muestra algunas configuraciones que podemos cambiar, como el editor de texto, si queremos colocar un icono en el escritorio y demás, por lo pronto lo dejaremos así, solo daremos clic en Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurarInstalacion.png">
+            <p>En la siguiente pantalla nos muestra el nombre de la carpeta donde deseamos almacenar nuestros proyectos localmente, por lo pronto la dejaremos como esta, solo le daremos clic en Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurandoInstalacion2.png">
+            <p>En esta ventana nos indica que por default utilizara el editor vim para trabajar en consola, al hacer alguna modificación a un archivo, daremos clic en Next(Siguiente</p>
+            <img src="Imagenes/ConfigurandoInstalacion3.png">
+            <p>En esta ventana, tiene seleccionada por default usar Git como línea de comandos y poder usar git bash para lanzar comandos del propio Git, por lo pronto lo dejaremos así y daremos Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurandoInstalacion4.png">
+            <p>En esta ventana, nos indica que el puente de seguridad que va a utilizar Git es a través del protocolo SSL, posteriormente veremos cómo configurar un certificado SSL para que Git no solicite nuestras credenciales de acceso cada vez que realizamos un cambio, daremos clic en Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurandoInstalacion5.png">
+            <p>En esta ventana, nos arroja la configuración de conversión de línea final, pero como trabajamos con Windows dejaremos esta configuración como esta, daremos clic en Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurandoInstalacion6.png">
+            <p>Aquí en esta ventana, Git utilizara un emulador de línea de comandos de Linux, pero en este caso para poder usarlo se apoyara de git bash, ya que recordemos que vamos a usar Git en Windows, damos clic en Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurandoInstalacion7.png">
+            <p>Esta es la última pantalla, en la cual nos muestra algunas configuraciones extras como habilitar los cambios en el sistema de archivos y habilitar el administrador de credenciales de git, la dejaremos como esta y daremos clic en Next(Siguiente)</p>
+            <img src="Imagenes/ConfigurandoInstalacion8.png">
+            <p>Después de dar clic en instalar, comenzara el proceso de instalación, tomando en cuenta las configuraciones que previamente colocamos</p>
+            <img src="Imagenes/ConfigurandoInstalacion9.png">
+            <p>Esperamos que concluya la instalación y al final observaremos que se completa la instalación con una ventana como la siguiente.</p>
+            <img src="Imagenes/ConfigurandoInstalacion10.png">
+
+            
+        </article>
+
+        <article>
+            <h3 class="h3titulo">Comprobando la instalacion</h3>
+            <p>Para comprobar que Git se instaló correctamente solo vamos a Windows -> y escribimos Git, veremos que aparecerán los programas básicos para comenzar a trabajar con Git.</p>
+            <img src="Imagenes/ComprobandoLaInstalacion.png">
+        </article>
+        
+    </section>
+    <section>
+        <article>
+            <h2 class="h2titulo">Usar Git en VisuaL Studio Code para repositorios en  gitHub</h2>
+            <p>Para trabajar con nuestros repositorios de gitHub en VSC lo primero que tenemos que hacer el clonarlo en local</p>
+            <p>Para clonar un repositorio la mejor opcion es usar la "tableta de comandos" instalada en vsc y utilizar el comando Git: Clone</p>
+            <img src="Imagenes/ComandPalette.png">
+            <p>Toca escribir la url del repositorio para ello nos iremos a nuestro proyecto de gitHub y la copiaremos</p>
+            <img src="Imagenes/ClonarRepositoriodeGitHub.png">
+            <p>Escribimos esta url en la "paleta de comandos" y automaticamente el programa te preguntara en que carpeta local quieres guardar los datos para trabajar con ellos</p>
+            <p>Seleccionamos la carpeta a nuestro gusto,y le damos a open en vsc,una vez hecho esto tenemos nuestro repositorio cargado de github en vsc </p>
+            <p> Ahora vamos a explicar unos comandos basicos para utilizar correctamente la terminal de vsc con git</p>
+        </article>
+
+        <article>
+            <h2 class="h2titulo">Comandos terminal vsc con git</h2>
+            <article>
+                <h3 class="h3titulo">Git init</h3>
+                 <p>git init creará un nuevo repositorio local GIT. El siguiente comando de Git creará un repositorio en el directorio actual</p>
+            </article>
+            <article>
+                <h3 class="h3titulo">git clone </h3>
+            <p> se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, la estructura es : "git clone nombredeusuario@host:/path/to/repository" </p>
+            </article>            
+            <article>
+                <h3 class="h3titulo">git add </h3>
+                <p> se usa para agregar archivos al área de preparación.</p>
+                <p>Si se usa para agregar un solo archivo modificado,se escribira el nombre del archivo detrás ej: "git add prueba.txt"</p>
+                <p>si se usa para agregar todos los archivos modificados se escribira "git add ." </p>
+            </article>
+            <article>
+                <h3 class="h3titulo">git commit </h3>
+                    <p>git commit creará una instantánea de los cambios y la guardará en el directorio git.</p>
+                    <p>es muy aconsejable añadir detras del comando "-m + "texto" " para ponerle nombre al commit y asi localizarlo mas facilmente en caso de necesitar volver</p>
+            </article>
+            <article>
+                <h3 class="h3titulo">git status </h3>
+                <p>git status muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados.</p>
+                
+            </article>
+            <article>
+                <h3 class="h3titulo">git push  origin "master" </h3>
+                <p> se usa para enviar confirmaciones locales a la rama maestra del repositorio remoto</p>
+                <p>Reemplaza "master" con la rama en la que quieres enviar los cambios cuando no quieras enviarlos a la rama maestra.</p>
+            </article>
+            <article>
+                <h3 class="h3titulo">git branch</h3>
+                <p> se usa para listar, crear o borrar ramas.</p>
+                <p>Para borrar una rama  git branch -d "branch-name"</p>
+            </article>
+
+            <article>
+                <h3 class="h3titulo">git pull y  git merge</h3>
+                <p>git pull fusiona todos los cambios que se han hecho en el repositorio local con el directorio de trabajo local.</p>
+                <p>git merge se usa para fusionar una rama con otra rama activa</p>
+            </article>
+            
+            <aside>
+                <h2 class="h2titulo">Aqui te dejo un enlace a todos los comandos de git</h2>
+                <a href="https://gist.github.com/dasdo/9ff71c5c0efa037441b6">Comandos de git</a>
+                <p>Aqui un video explicativo de youtube</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qdec2M4NwT0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </aside>
+        </article>
+
+    </section>
+    <footer>
+        <img src="Imagenes/Imagenfooter.jpg">
+
+    </footer>
+    </body>
+    
+
+   
 
 </html>
+
