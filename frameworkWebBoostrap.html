@@ -13,19 +13,37 @@
 </head>
 <body>
     <header>
-        <h1>¿Qué es Bootstrap?</h1>
+        <h1 class="titulo">Bootstrap</h1>
 
-        <p>Bootstrap es un framework CSS desarrollado por Twitter en 2010, para estandarizar las herramientas de la compañía.
+        <ul class="menuLista">
+          <li class="liMenu"><a href="index.html" class="referencia">Inicio</a></li>
+          <li class="liMenu"><a href="vscConGit.html" class="referencia">VSC con Git</a></li>
+          <li class="liMenu"><a href="nodejsEnVSC.html" class="referencia">NodeJS con VSC</a></li>
+          <li class="liMenu"><a href="herramientasDesarrollo.html" class="referencia">Herramientas de Desarrollo</a></li>
+          <li class="liMenu"><a href="frameworkJS.html" class="referencia">Frameworks JS</a></li>
+          <li class="liMenu"><a href="frameworkWebBoostrap.html" class="referencia">Boostrap</a></li>
+          <li id="Reloj">
+              <div id="clockdate">
+                  <div class="clockdate-wrapper">
+                      <div id="clock"></div>
+                      <div id="date"></div>
+                  </div>
+              </div>
+          </li>
+      </ul>
+        
+    </header>
+
+    <section>
+       <h2>¿Qué es Bootstap?</h2>
+
+       <p>Bootstrap es un framework CSS desarrollado por Twitter en 2010, para estandarizar las herramientas de la compañía.
         Inicialmente, se llamó Twitter Blueprint y, un poco más tarde, en 2011, se transformó en código abierto y su nombre cambió para Bootstrap. Desde entonces fue actualizado varias veces y ya se encuentra en la versión 4.4.
         El framework combina CSS y JavaScript para estilizar los elementos de SSuna página HTML. Permite mucho más que, simplemente, cambiar el color de los botones y los enlaces.
         Esta es una herramienta que proporciona interactividad en la página, por lo que ofrece una serie de componentes que facilitan la comunicación con el usuario, como menús de navegación, controles de página, barras de progreso y más.
         Además de todas las características que ofrece el framework, su principal objetivo es permitir la construcción de sitios web responsive para dispositivos móviles.
         Esto significa que las páginas están diseñadas para funcionar en desktop, tablets y smartphones, de una manera muy simple y organizada.</p>
-
-    </header>
-
-    <section>
-
+        
         <h2>¿Cómo funciona Bootstap?</h2>
 
         <p>Bootstrap está constituido por una serie de archivos CSS y JavaScript responsables de asignar características específicas a los elementos de la página.
@@ -37,7 +55,7 @@
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div width="560" height="315" class="carousel-item active">
+            <div class="carousel-item active">
               <img class="d-block w-50" src="Bootstrap/img1Bootstrao.png" alt="First slide">
             </div>
             <div class="carousel-item">
@@ -57,9 +75,8 @@
 
     <footer>
 
-        <button type="button" onclick="window.location.href='index.html'">Volver a Inicio</button>
+        <div id="pie">2021 &copy; PracticaHLC02</div>
 
     </footer>
 </body>
 </html>
-
