@@ -1,1 +1,95 @@
-RAMA instalacionVS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instalación VSC</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/jpg" href="https://tkssharma.com/static/1bbde74a918ac99b9e7319e041cb62b5/1e586/js.png" />
+    <script src="instalacionVSJavaScript.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Instalación VSC</h1>
+        <ul class="menuLista">
+            <li class="liMenu"><a href="index.html" class="referencia">Inicio</a></li>
+            <li class="liMenu"><a href="instalacionVS.html" class="referencia">Instalacion VSC</a></li>
+            <li class="liMenu"><a href="vscConGit.html" class="referencia">VSC con Git</a></li>
+            <li class="liMenu"><a href="nodejsEnVSC.html" class="referencia">NodeJS con VSC</a></li>
+            <li class="liMenu"><a href="herramientasDesarrollo.html" class="referencia">Herramientas de Desarrollo</a></li>
+            <li class="liMenu"><a href="frameworkJS.html" class="referencia">Frameworks JS</a></li>
+            <li class="liMenu"><a href="frameworkWebBoostrap.html" class="referencia">Boostrap</a></li>
+        </ul>
+    </header>
+    
+    <section>
+        <h2>Instalación</h2>
+
+        <p>Para empezar la Instalación de Visual Studio Code, se debe descargar el ejecutable desde su <a onclick="mostrarMensajeVisual()" href="https://code.visualstudio.com/#alt-downloads">página oficial.</a>
+        Existen dos tipos de instalaciones: User Installer y System Installer. La instalación User, no requiere permisos
+    del administrador, las actualizaciones serán más sencillas. La instalación System se hará para todo el sistema. Se recomienda ésta última.
+        Una vez descargado, se ejecuta y se acepta la licencia. Después se elige la ruta donde instalar el entorno de desarrollo y 
+    en el resto de ventanas sólo hay que pulsar el botón para seguir. </p>
+
+    <p>Si existe alguna duda, <a onclick="mostrarMensajeGuia()" href="https://www.mclibre.org/consultar/informatica/lecciones/vsc-instalacion.html">visitar esta guia</a>, o bien, ver este video:</p>
+        
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/s47z_qh16j4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section>
+        <h2>Complementos</h2>
+
+        <p> Los complementos que permiten personalizar y mejorar la experiencia en Visual Studio mediante 
+            la incorporación de nuevas características o la integración de herramientas existentes.</p>
+
+        <p>Los más recomendados para JavaScript son:</p>
+
+        <ul>
+            <li>
+                Live server: permite una vista previa de su archivo HTML en un navegador.
+            </li>
+            <li>
+                JSCS Linting: Analiza el código JavaScript y revisa que se están siguiendo unos determinados estilos de programación a la hora de programar.
+            </li>
+            <li>
+                Javascript ES6: contiene fragmentos de código para JavaScript en la sintaxis de ES6 admite JavaScript y TypeScript.
+            </li>
+            <li>
+                Node Security Project: Esta extensión añade un nuevo comando, nsp, que lanza una verificación de tu código contra el inventario de vulnerabilidades de seguridad de Node Security Project.
+            </li>
+            <li>
+                Bookmarks: Permite marcar ciertas líneas en nuestro código y luego saltar rápidamente de unas a otras con unas teclas rápidas.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+
+        <h2>Funcionamiento</h2>
+
+        <p>Para usar este entorno de desarrollo, primero de todo hay que crear una carpeta. Se hace clic en File/Open folder/ en el nuevo cuadro 
+            ubicamos y se selecciona con un clic la carpeta que se haya creado anteriormente y se hace clic en Select folder. 
+            Luego hay que iniciar el primer archivo HTML haciendo clic en el botón New file y agregamos el nombre y extensión respectivo: index.html.
+        </p>
+
+        <p>
+            Se empieza entonces a codificar nuestra primera web, para ello mientras se empieza a escribir la 
+            primera etiqueta htm se muestra un menú desplegable que indica la forma de iniciar la página web, 
+            con las teclas direccionales se selecciona html:5 y luego se pulsa enter, esto permitirá que los 
+            plugins instalados anteriormente nos ayuden a tener toda la estructura principal de nuestra página 
+            web.
+        </p>
+
+        <p>
+            Para guardar los cambios, hay que hacer clic en el menú File, clic en la opción Save. 
+            También se puede utilizar la combinación de teclas Ctrl + S.
+        </p>
+    
+    </section>
+    <footer>
+        <div id="pie">2021 &copy; PracticaHLC02</div>
+    </footer>
+</body>
+</html>
